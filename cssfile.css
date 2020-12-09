@@ -3,5 +3,92 @@
     grid-template-columns: 70% 30%;
 }
 .header, .footer{
+
     grid-column: 1/3;
 }
+.logo{
+    height: 20px;
+    width: 20px;
+  
+    font-size: 30px;
+}
+.header{
+  
+    
+    height: 350px;
+    
+}
+.menu {
+    display: flex ;
+    justify-content: space-around; 
+    
+}
+.menu .home, .news, .contact {
+    margin: 10px;
+    
+}
+.image_header{
+    height: 300px;
+    background-image: url('./image/image_header.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: -100px;
+    display: block;
+}
+.weekly{
+    display : flex;
+    font-family : arial, san-serif;
+    border-bottom : 1px solid #888;
+    align-Items: center;
+  }
+  
+  .weekly .number{
+    padding : 0 10px;
+    font-size: 20px;
+  }
+  .weekly .number-view{
+    padding : 0 10px;
+    font-size: 15px;
+    color : #999;
+  }
+  .weekly .infor{
+    flex-grow : 1;
+    padding: 10px 0;
+    
+  }
+  .weekly .infor .singer-name{
+    color :#999;
+    font-size : 10px;
+  }
+  .weekly .infor .song-title{
+  
+  }
+  .image-body{
+    margin: 20px;
+    background-image: url('https://picsum.photos/200/300');
+    height :200px;
+    width :200px;
+    background-position:  contain;
+    
+  }
+  .sidebar{
+    margin-left: 30px;
+
+  }
+  .body .image-body .overlay{
+    display: flex;
+    height: 100%;
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+  }
+  .body .image-body .overlay:hover{
+
+    opacity: 1;
+  }
+  body{
+      margin: 0 50px 0 50px;
+  }
